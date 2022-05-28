@@ -1,46 +1,63 @@
 {
-  "app_setting":{
-      "google_ads": {
-          "ads_app_id": "ca-app-pub-1867655643934057~5991937941",
-          "banner_ad_unit_id": "ca-app-pub-1867655643934057/4319763623",
-          "interstitial_ad_unit_id": "ca-app-pub-1867655643934057/2836658548",
-          "ads_banner_clicks_per_duration_day": -1,
-          "ads_interstitial_clicks_per_duration_day": -1,
-          "ads_clicks_duration_day": 1,
-          "safety_layer_delay_millisecond": 100,
-          "is_banner_safety_layer_one_click_remove": false,
-          "is_interstitial_safety_layer_one_click_remove": false,
-          "is_permanent_safety_layer": false,
-          "is_ads": true,
-          "is_banner_ads": true,
-          "is_interstitial_ads": true,
-          "is_native_ads": false,
-          "is_open_ads": true,
-          "is_stream_player_banner_ads": true,
-          "is_initially_ads_container_visible": true,
-          "is_load_default_ads_on_failed": false,
-          "native_ad_unit_id": "ca-app-pub-1867655643934057/6562783582",
-          "native_ad_unit_id1": "ca-app-pub-5004393487171509/4187942046",
-          "rewarded_video_ad_unit_id": "ca-app-pub-1867655643934057/6754355275",
-           "open_ad_unit_id": "ca-app-pub-1867655643934057/5430338737",
-          "is_illegal_interstitial_ads": false,
-          "is_legal_interstitial_ads": true,
-          "is_illegal_banner_ads": true,
-          "is_legal_banner_ads": true,
-          "visibility_percentage": 100
-        },
-      "custom_ads": {
-        "qureka_link": "https://490.go.qureka.com/intro/question",
-        "is_quraka_banner": false
-      },
-      "app_lovin": {
-        "id_unit_banner": "IMG_16_9_APP_INSTALL#2312433698835503_2964944860251047",
-        "is_banner_ads": false
-      },
-      "settigs": {
-        "share_url": "https://play.google.com/store/apps/details?id=com.airhorn.sounds.pranks",
-        "rate_url": "https://play.google.com/store/apps/details?id=com.airhorn.sounds.pranks",
-        "privacy_policy": "https://pages.flycricket.io/https-tenoku-com-a/privacy.html"
-      }
-    }
+  
+  "global_intra_interval_click":1,
+  
+  "ads_sequence": [
+   
+    "app_lovin",
+     "unity_ads",
+    "custom_ads"
+  ],
+  "google_ads": {
+    "banner_ad_unit_id_android": "ca-app-pub-3940256099942544/",
+    "interstitial_ad_unit_id_android": "/6499/example/interstitial",
+    "app_open_ad_unit_id_android": "ca-app-pub-3940256099942544/3419835294",
+    "native_ads_unit_id_android": "ca-app-pub-3940256099942544/2247696110",
+    "native_video_ads_unit_id_android": "ca-app-pub-3940256099942544/1044960115",
+    "rewared_ads_unit_id": "ca-app-pub-3940256099942544/5224354917",
+    "is_banner_ads": false,
+    "is_open_ads": false,
+    "is_interstitial_ads": true,
+    "is_rewared_ads":false,
+    "is_native_ads": false,
+    "no_of_click_interstitial": 1
+  },
+  "custom_ads": {
+    "qureka_link": "https://490.go.qureka.com/intro/question",
+    "is_quraka_banner": false,
+    "is_quraka_intera": true,
+    "close_button_to_direct_web": true,
+    "quraka_intra_image": [
+      "https://github.com/pragneshpalsanabitcoding/image_quraka/blob/main/360X640_1.png?raw=true",
+      "https://github.com/pragneshpalsanabitcoding/image_quraka/blob/main/360X640_2.png?raw=true",
+      "https://github.com/pragneshpalsanabitcoding/image_quraka/blob/main/360X640_3.png?raw=true",
+      "https://github.com/pragneshpalsanabitcoding/image_quraka/blob/main/360X640_4.png?raw=true",
+      "https://github.com/pragneshpalsanabitcoding/image_quraka/blob/main/360X640_5.png?raw=true",
+      "https://github.com/pragneshpalsanabitcoding/image_quraka/blob/main/360X640_6.png?raw=true"
+    ],
+    "quraka_banner_image": [
+      "https://github.com/pragneshpalsanabitcoding/image_quraka/blob/main/2.jpg?raw=true",
+      "https://github.com/pragneshpalsanabitcoding/image_quraka/blob/main/3.jpg?raw=true",
+      "https://github.com/pragneshpalsanabitcoding/image_quraka/blob/main/320x50.jpg?raw=true",
+      "https://github.com/pragneshpalsanabitcoding/image_quraka/blob/main/4.jpg?raw=true",
+      "https://github.com/pragneshpalsanabitcoding/image_quraka/blob/main/5.jpg?raw=true",
+      "https://github.com/pragneshpalsanabitcoding/image_quraka/blob/main/6.jpg?raw=true"
+    ]
+  },
+  "app_lovin": {
+    "id_unit_banner": "829960d01e6b4631",
+    "id_unit_intra": "5dca3346774f3928",
+    "rewared_ads_unit_id": "78bd1c3cf34136c3",
+    "id_unit_naitve": "",
+    "is_banner_ads": false,
+    "is_interstitial_ads": true,
+    "is_native_ads": false,
+        "is_rewared_ads": false
+  },
+  "unity_ads": {
+    "game_id": "4757773",
+    "is_intra_ads": true,
+    "is_banner_ads": false,
+    "is_rewared_ads": false
+  }
 }
