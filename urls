@@ -1,0 +1,21 @@
+{
+  "app_setting":{
+      "google_ads": {
+        "banner_ad_unit_id_android": "ca-app-pub-3940256099942544/6300978111",
+        "is_banner_ads": false
+      },
+      "custom_ads": {
+        "qureka_link": "https://490.go.qureka.com/intro/question",
+        "is_quraka_banner": false
+      },
+      "app_lovin": {
+        "id_unit_banner": "IMG_16_9_APP_INSTALL#2312433698835503_2964944860251047",
+        "is_banner_ads": false
+      },
+      "settigs": {
+        "share_url": "https://play.google.com/store/apps/details?id=com.airhorn.sounds.pranks",
+        "rate_url": "https://play.google.com/store/apps/details?id=com.airhorn.sounds.pranks",
+        "privacy_policy": "https://pages.flycricket.io/https-tenoku-com-a/privacy.html"
+      }
+    }
+}
