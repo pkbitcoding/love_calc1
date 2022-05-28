@@ -1,9 +1,34 @@
 {
   "app_setting":{
       "google_ads": {
-        "banner_ad_unit_id_android": "ca-app-pub-3940256099942544/6300978111",
-        "is_banner_ads": false
-      },
+          "ads_app_id": "ca-app-pub-1867655643934057~5991937941",
+          "banner_ad_unit_id": "ca-app-pub-1867655643934057/4319763623",
+          "interstitial_ad_unit_id": "ca-app-pub-1867655643934057/2836658548",
+          "ads_banner_clicks_per_duration_day": -1,
+          "ads_interstitial_clicks_per_duration_day": -1,
+          "ads_clicks_duration_day": 1,
+          "safety_layer_delay_millisecond": 100,
+          "is_banner_safety_layer_one_click_remove": false,
+          "is_interstitial_safety_layer_one_click_remove": false,
+          "is_permanent_safety_layer": false,
+          "is_ads": true,
+          "is_banner_ads": true,
+          "is_interstitial_ads": true,
+          "is_native_ads": false,
+          "is_open_ads": true,
+          "is_stream_player_banner_ads": true,
+          "is_initially_ads_container_visible": true,
+          "is_load_default_ads_on_failed": false,
+          "native_ad_unit_id": "ca-app-pub-1867655643934057/6562783582",
+          "native_ad_unit_id1": "ca-app-pub-5004393487171509/4187942046",
+          "rewarded_video_ad_unit_id": "ca-app-pub-1867655643934057/6754355275",
+           "open_ad_unit_id": "ca-app-pub-1867655643934057/5430338737",
+          "is_illegal_interstitial_ads": false,
+          "is_legal_interstitial_ads": true,
+          "is_illegal_banner_ads": true,
+          "is_legal_banner_ads": true,
+          "visibility_percentage": 100
+        },
       "custom_ads": {
         "qureka_link": "https://490.go.qureka.com/intro/question",
         "is_quraka_banner": false
